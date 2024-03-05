@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('title');
             $table->string('employment_type');
             $table->string('company_name');
-            $table->string('company_logo');
-            $table->string('job_role');
+            $table->string('company_logo')->nullable();
+            $table->string('role');
             $table->string('apply_url');
             $table->string('salary');
             $table->text('description');

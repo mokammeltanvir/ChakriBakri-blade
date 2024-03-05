@@ -15,7 +15,7 @@ EmploymentType: string
     case Other = 'other';
 
 
-    public function getLabels(): string
+    public function getLabel(): string
     {
         return match ($this) {
             self::Full_Time => 'Full Time',

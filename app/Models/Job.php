@@ -15,7 +15,7 @@ class Job extends Model
         'company_name',
         'company_logo',
         'employment_type',
-        'job_role',
+        'role',
         'apply_url',
         'salary',
         'description',

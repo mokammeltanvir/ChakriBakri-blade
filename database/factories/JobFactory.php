@@ -23,8 +23,7 @@ class JobFactory extends Factory
             'company_name' => fake()->company(),
             'company_logo' => fake()->imageUrl(100,100),
             'employment_type' => fake()->randomElement(EmploymentType::cases())->value,
-
-            'job_role' => fake()->jobTitle(),
+            'role' => fake()->jobTitle(),
             'apply_url' => fake()->url(),
             'salary' => Number::currency(fake()->numberBetween(1000, 100000), 'USD') . ' - ' . Number::currency(fake()->numberBetween(1000, 100000), 'USD'),
             'description' => fake()->realText(600),
