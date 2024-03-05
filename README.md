@@ -72,14 +72,6 @@ php artisan serve
 
 The application should now be accessible at http://localhost:8000.
 
-# Usage
-
-Once the application is set up, you can:
-
--   View the portfolio projects.
--   Explore different sections such as skills and contact.
--   Interact with the contact form to send messages.
-
 # Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
